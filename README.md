@@ -1,3 +1,4 @@
-I ordered a NMMiner 2 actually from one hit BTC, they never sent it to me, instead of getting angry I order a few of these: https://www.aliexpress.us/item/3256806129129876.html?spm=a2g0o.order_list.order_list_main.11.be1b1802HHiYDi&gatewayAdapt=glo2usa
+I ordered a NMMiner, 2 actually from one hit BTC, they never sent it to me, instead of getting angry I order a few of these: https://www.aliexpress.us/item/3256806129129876.html?spm=a2g0o.order_list.order_list_main.11.be1b1802HHiYDi&gatewayAdapt=glo2usa
 
-used ghidra and skipped over activation. This is that firmware NMMiner 1.8.28
+used ghidra and skipped over activation. This is that firmware NMMiner 1.8.28, flash with:
+python3 -m esptool --chip esp32 --port /dev/ttyUSB0 --no-stub write_flash 0 factory_patched_clean.bin
